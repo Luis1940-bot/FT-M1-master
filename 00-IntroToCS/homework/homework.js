@@ -17,9 +17,9 @@ function DecimalABinario(num) {
   var division = num;
   while (division >= 1) {
     arreglo.unshift(division % 2);
-    console.log(division % 2);
+
     division = Math.trunc(division / 2);
-    console.log(division);
+
     //console.log(division)
   }
   return arreglo.join("");
